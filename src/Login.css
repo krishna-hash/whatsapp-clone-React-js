@@ -1,0 +1,27 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+.Login_body {
+  background-color: white;
+  padding: 40px;
+  width: 50vh;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75);
+}
+
+.Login_body > img {
+  margin-bottom: 10px;
+}
+.Login_body > button {
+  background-color: green !important;
+  margin-top: 17px;
+  color: white;
+  text-transform: inherit !important;
+}
+.Login_body > button:hover {
+  filter: opacity(0.8);
+}
